@@ -7,7 +7,7 @@ source ~/.nvm/nvm.sh
 nvm install stable
 nvm use stable
 
-sudo apt-get install zsh
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sudo sh
-chsh -s `which zsh`
+sudo apt-get install -y zsh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sudo zsh
+sudo chsh -s `which zsh` ubuntu
 sudo shutdown -r 0
